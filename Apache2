@@ -1,0 +1,8 @@
+sudo apt update
+sudo apt install apache2
+
+sudo mkdir /var/www/gci/
+
+cd /etc/apache2/sites-available/
+sudo cp 000-default.conf gci.conf
+sudo nano gci.conf
